@@ -1,0 +1,71 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.ancla {
+    position: relative;
+    top: -60px;
+}
+.logo{
+    margin-left: 70px;
+}
+ul{
+    margin-right: 70px;
+}
+h1{
+    margin-bottom: 30px;
+}
+.inicio{
+    margin-top: 83px;
+}
+#carouselFade .carousel-item img{
+    height: 800px; 
+}
+.carousel-caption{
+    position: absolute;
+    top: 60%;
+    left: 61%;
+    text-align: center;
+}
+.carousel-item::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}  
+.carousel-inner img{
+    height: 800px;
+    object-fit: cover; 
+    object-position: center calc(50% - 100px);
+}
+h5{
+    font-size: 25px;
+}
+.nosotros{
+    background-color: lightcyan;
+    margin-bottom: 60px;
+}
+.vid{
+    background-color: gold;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.carta{
+    background-color: #263865;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.cont{
+    background-color: lightgray;
+    padding-top: 20px;
+}
+footer{
+    background-color: #343a40;
+}
+.copy{
+    margin-top: 110px;
+}
+.red{
+    margin-top: 70px;
+}
